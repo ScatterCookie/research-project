@@ -1,0 +1,52 @@
+.app {
+  min-height: 100vh;
+  background-color: #f5f5f5;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.palette {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.color-box {
+  text-align: center;
+}
+
+.color {
+  width: 120px;
+  height: 120px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
